@@ -20,13 +20,26 @@ with only a minimal increase in parameters. This study thus demonstrates the pot
 - Not publicly available due to privacy and sensitivity concerns  
 - Contact for access if needed for research collaboration
 
+##  Sample Ultrasound Images
+
+<p align="center">
+  <img src="assets/1.jpg" width="250" />
+  <img src="assets/2.jpg" width="250" />
+  <img src="assets/3.jpg" width="250" />
+</p>
+
+<p align="center">
+  <img src="assets/4.jpg" width="250" />
+  <img src="assets/5.jpg" width="250" />
+</p>
+
 
 ## Motivation
 For real-time clinical use, medical image classification requires both efficiency and accuracy. However, the majority of cutting-edge deep learning models have a high number of parameters and are computationally demanding, which restricts their practical application. Because of this, there is a need for high-performing, lightweight architectures that strike a balance between speed and accuracy, allowing for scalable and useful healthcare solutions.
 
 
 ### Results
-ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC curve 2 and PR1 show the baseline model's persormance.
+Training and validation loss curve 1 and Confusion matrix 1 show the impacts of SE block in the architecture.Training and validation loss curve 2 and Confusion matrix 2 show the baseline model's persormance.
 | Loss Curve 1 | Loss Curve 2 |
 |-------------|-------------|
 | [Training and validation loss 1](Results/stv-2.png) | [Training and validation loss 1](Results/gse.png) |
@@ -38,31 +51,32 @@ ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC
 
 
 # Project Structure
+
 ```
-├── Results                     
-│   ├── git1.png
-    ├── roc1.pdf
-    ├── roc2.pdf
-    ├── recall1.pdf
-    ├── recall2.pdf
-├── codes
-|   ├── pg_decoders.py                      
-    ├── pg_encoders.py                
-    ├── evaluate.py         
-    ├── latent_dis.py             
-    ├── latent_model.py         
-    ├── optimizer.py                
-    ├── train.py   
-    ├── utils.py              
-    ├── Attn_models.py               
-    ├── layers.py               
-    ├── pg_networks.py
-    ├── eval_example.yaml
-    ├── train_example.yaml               
-    └── .gitignore                   
-    ├── README.md
-├── requirements.txt                      
-  ```
+├── Results                         # Folder containing images of results
+│   ├── alexnet_acc.png
+│   ├── alexnet_class.png
+│   ├── custom_cnn_acc
+|   ├── custom_cnn_class
+
+├── alexnet.py                      # Training and evaluation using AlexNet
+├── dense-121.py                    # Training and evaluation using DenseNet121
+├── resnet50_paper_fif.py           # Training and evaluation using ResNet50
+├── vgg_16_PAPER_fif.py             # Training and evaluation using VGG16
+├── custom_cnn_paper_fif.py         # Training and evaluation of custom CNN
+├── gauss_final.py                  # Custom CNN with Learnable 2D Gaussian layer
+├── gaussiand2D_layer_pytorch.py    # Script defining the learnable 2D Gaussian layer
+├── create_dataset.py               # Dataset loading and preprocessing
+├── ece+32.py                       # Training and evaluation of ECE attention Custom CNN with Learnable 2D Gaussian layer (32 filters)
+├── ece+64.py                       # Training and evaluation of ECE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)
+├── SE_att.py                       # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (32 filters)
+├── se+64.py                        # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)       
+└── requirements.txt/               # Required Python dependencies
+└── .gitignore                      # Specifies files and folders to be ignored by Git
+├── README.md                       # Reading this!
+
+```       
+
 
 
 ```bash
@@ -75,14 +89,39 @@ pip install -r requirements.txt
 ```
 
 ## References
-1. Nina Tuluptceva, Bart Bakker, Irina Fedulova, Anton Konushin
-   “PERCEPTUAL IMAGE ANOMALY DETECTION.” [arXiv:1909.05904](https://arxiv.org/pdf/1909.05904) 
+
+1. Huang, G., Liu, Z., Van Der Maaten, L., & Weinberger, K.  
+   “Densely Connected Convolutional Networks.” [arXiv:1608.06993](https://arxiv.org/pdf/1608.06993)
+
+2. Simonyan, K., & Zisserman, A.  
+   “Very Deep Convolutional Networks for Large-Scale Image Recognition.” [arXiv:1409.1556](https://arxiv.org/pdf/1409.1556)
+
+3. He, K., Zhang, X., Ren, S., & Sun, J.  
+   “Deep Residual Learning for Image Recognition.” [arXiv:1512.03385](https://arxiv.org/pdf/1512.03385)
+
+4. Biswas, S., Ayna, C. O., & Gurbuz, A. C.  
+   “PLFNets: Interpretable Complex Valued Parameterized Filters...” [IEEE Paper](https://doi.org/10.1109/trs.2024.3486183)
+
+5. Papers with Code  
+   “ImageNet Classification with Deep CNNs.” [Link](https://paperswithcode.com/paper/imagenet-classification-with-deep)
+
+6. Persson, A.  
+   “Aladdin Persson - YouTube.” [YouTube](https://www.youtube.com/@AladdinPersson)
 
 
-## Author
+---
+
+
+## Authors
+
 - **Sifat Z. Karim** — Graduate Student, Mississippi State University  
   📧 [sifatzinakarim1992@gmail.com](mailto:sifatzinakarim1992@gmail.com)  
   🧑‍💻 GitHub: [@sifat1992](https://github.com/sifat1992)
+
+- **Sabyasachi Biswas** — Graduate Student, Mississippi State University  
+  📧 [sabyasachi1406147@gmail.com](mailto:sabyasachi1406147@gmail.com)  
+  🧑‍💻 GitHub: [@Sabyasachi1406147](https://github.com/Sabyasachi1406147)
+---
 
 ## Contact
 
