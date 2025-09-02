@@ -23,14 +23,14 @@ with only a minimal increase in parameters. This study thus demonstrates the pot
 ##  Sample Ultrasound Images
 
 <p align="center">
-  <img src="assets/1.jpg" width="250" />
-  <img src="assets/2.jpg" width="250" />
-  <img src="assets/3.jpg" width="250" />
+  <img src="Assets/1.jpg" width="250" />
+  <img src="Assets/2.jpg" width="250" />
+  <img src="Assets/3.jpg" width="250" />
 </p>
 
 <p align="center">
-  <img src="assets/4.jpg" width="250" />
-  <img src="assets/5.jpg" width="250" />
+  <img src="Assets/4.jpg" width="250" />
+  <img src="Assets/5.jpg" width="250" />
 </p>
 
 
