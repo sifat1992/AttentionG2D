@@ -29,11 +29,11 @@ For real-time clinical use, medical image classification requires both efficienc
 ROC curve 1 and PR curve 2 show the impacts of SE block in the architecture. ROC curve 2 and PR1 show the baseline model's persormance.
 | Loss Curve 1 | Loss Curve 2 |
 |-------------|-------------|
-| [ROC1](Results/stv-2.png) | [ROC2](Results/gse.png) |
+| [Training and validation loss 1](Results/stv-2.png) | [Training and validation loss 1](Results/gse.png) |
 
 | Confusion matrix 1  | Confusion matrix 2  |
 |-------------|-------------|
-| [PR1](Results/sc.png) | [PR2](Results/gsec.png) |
+| [Confusion matrix 1](Results/sc.png) | [Confusion matrix 2](Results/gsec.png) |
 
 
 
