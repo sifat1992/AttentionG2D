@@ -53,12 +53,17 @@ Training and validation loss curve 1 and Confusion matrix 1 show the impacts of 
 # Project Structure
 
 ```
+├── assets/                         # Folder containing sample dataset images
+│   ├── 1.png
+│   ├── 2.png
+    ├── 3.png
+    ├── 4.png
+    ├── 5.png
 ├── Results                         # Folder containing images of results
 │   ├── alexnet_acc.png
 │   ├── alexnet_class.png
 │   ├── custom_cnn_acc
 |   ├── custom_cnn_class
-
 ├── alexnet.py                      # Training and evaluation using AlexNet
 ├── dense-121.py                    # Training and evaluation using DenseNet121
 ├── resnet50_paper_fif.py           # Training and evaluation using ResNet50
@@ -107,6 +112,10 @@ pip install -r requirements.txt
 
 6. Persson, A.  
    “Aladdin Persson - YouTube.” [YouTube](https://www.youtube.com/@AladdinPersson)
+
+7. Simegnew Alaba,
+
+"A Comprehensive Guide to Attention Mechanisms in CNNs: From Intuition to Implementation." [Blog] (https://medium.com/@simonyihunie/a-comprehensive-guide-to-attention-mechanisms-in-cnns-from-intuition-to-implementation-7a40df01a118).
 
 
 ---
