@@ -115,8 +115,7 @@ pip install -r requirements.txt
 
 7. Simegnew Alaba,
 
-"A Comprehensive Guide to Attention Mechanisms in CNNs: From Intuition to Implementation." [Blog] (https://medium.com/@simonyihunie/a-comprehensive-guide-to-attention-mechanisms-in-cnns-from-intuition-to-implementation-7a40df01a118).
-
+  "A Comprehensive Guide to Attention Mechanisms in CNNs: From Intuition to Implementation." [Blog] (https://medium.com/@simonyihunie/a-comprehensive-guide-to-attention-mechanisms-in-cnns-from-intuition-to-implementation-7a40df01a118).
 
 ---
 
