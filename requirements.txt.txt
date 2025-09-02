@@ -1,0 +1,17 @@
+# Core Deep Learning
+torch==2.4.1+cu118
+torchvision==0.19.1+cu118
+torchaudio==2.4.1+cu118
+
+# Install wheels from the official PyTorch index
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Data handling
+numpy>=1.26
+scipy>=1.13
+Pillow>=10.0
+
+# Training utilities
+tqdm>=4.66
+matplotlib>=3.8
+pyyaml>=6.0
