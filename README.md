@@ -64,18 +64,19 @@ Training and validation loss curve 1 and Confusion matrix 1 show the impacts of 
 │   ├── alexnet_class.png
 │   ├── custom_cnn_acc
 |   ├── custom_cnn_class
-├── alexnet.py                      # Training and evaluation using AlexNet
-├── dense-121.py                    # Training and evaluation using DenseNet121
-├── resnet50_paper_fif.py           # Training and evaluation using ResNet50
-├── vgg_16_PAPER_fif.py             # Training and evaluation using VGG16
-├── custom_cnn_paper_fif.py         # Training and evaluation of custom CNN
-├── gauss_final.py                  # Custom CNN with Learnable 2D Gaussian layer
-├── gaussiand2D_layer_pytorch.py    # Script defining the learnable 2D Gaussian layer
-├── create_dataset.py               # Dataset loading and preprocessing
-├── ece+32.py                       # Training and evaluation of ECE attention Custom CNN with Learnable 2D Gaussian layer (32 filters)
-├── ece+64.py                       # Training and evaluation of ECE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)
-├── SE_att.py                       # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (32 filters)
-├── se+64.py                        # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)       
+├── Codes
+    ├── alexnet.py                      # Training and evaluation using AlexNet
+    ├── dense-121.py                    # Training and evaluation using DenseNet121
+    ├── resnet50_paper_fif.py           # Training and evaluation using ResNet50
+    ├── vgg_16_PAPER_fif.py             # Training and evaluation using VGG16
+    ├── custom_cnn_paper_fif.py         # Training and evaluation of custom CNN
+    ├── gauss_final.py                  # Custom CNN with Learnable 2D Gaussian layer
+    ├── gaussiand2D_layer_pytorch.py    # Script defining the learnable 2D Gaussian layer
+    ├── create_dataset.py               # Dataset loading and preprocessing
+    ├── ece+32.py                       # Training and evaluation of ECE attention Custom CNN with Learnable 2D Gaussian layer (32 filters)
+    ├── ece+64.py                       # Training and evaluation of ECE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)
+    ├── SE_att.py                       # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (32 filters)
+    ├── se+64.py                        # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)       
 └── requirements.txt/               # Required Python dependencies
 └── .gitignore                      # Specifies files and folders to be ignored by Git
 ├── README.md                       # Reading this!
