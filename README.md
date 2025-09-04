@@ -18,7 +18,7 @@ with only a minimal increase in parameters. This study thus demonstrates the pot
 ## Dataset
 - Custom curated ultrasound dataset  
 - Not publicly available due to privacy and sensitivity concerns  
-- Contact for access if needed for research collaboration
+
 
 ##  Sample Ultrasound Images
 
