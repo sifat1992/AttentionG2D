@@ -76,8 +76,16 @@ Training and validation loss curve 1 and Confusion matrix 1 show the impacts of 
     ├── ece+32.py                       # Training and evaluation of ECE attention Custom CNN with Learnable 2D Gaussian layer (32 filters)
     ├── ece+64.py                       # Training and evaluation of ECE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)
     ├── SE_att.py                       # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (32 filters)
-    ├── se+64.py                        # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)       
-├── requirements.txt/               # Required Python dependencies
+    ├── se+64.py                        # Training and evaluation of SE attention Custom CNN with Learnable 2D Gaussian layer (64 filters)
+├── Cross Validation
+    ├── cross_val_alex.py                      
+    ├── cross_val_cnn.py                    
+    ├── corss_val_dense_fif.py           
+    ├── Cross_val_vgg.py             
+    ├── cross_val_res.py         
+    ├── cross_val_gauss.py
+    ├── cross_val_se64.py                     
+├── requirements.txt/              
 ├── .gitignore                      # Specifies files and folders to be ignored by Git
 ├── README.md                       # Reading this!
 
